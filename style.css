@@ -70,6 +70,7 @@ header {
   .header-container {
     flex-direction: column;
     gap: 1rem;
+    padding: 0;
   }
   
   .title-section, .contact-section {
@@ -77,7 +78,169 @@ header {
   }
   
   .logo {
+    height: 60px;
+  }
+  
+  .title-section h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .title-section p {
+    font-size: 0.8rem;
+    margin: 0.1rem 0;
+  }
+  
+  .contact-section {
+    min-width: auto;
+  }
+  
+  .contact-section p {
+    font-size: 0.7rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  header {
+    padding: 1rem;
+  }
+  
+  .header-container {
+    gap: 0.5rem;
+  }
+  
+  .logo {
     height: 50px;
+  }
+  
+  .title-section h1 {
+    font-size: 1.3rem;
+  }
+  
+  .title-section p {
+    font-size: 0.75rem;
+  }
+  
+  .contact-section p {
+    font-size: 0.65rem;
+    margin: 0.2rem 0;
+  }
+  
+  .contact-section strong {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive para tarjetas en tablets */
+@media (max-width: 768px) {
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card img {
+    height: 180px;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    margin: 0.4rem 0;
+  }
+  
+  .card p {
+    font-size: 0.85rem;
+    margin: 0.25rem 0;
+  }
+}
+
+/* Responsive para tarjetas en móviles */
+@media (max-width: 480px) {
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    height: 150px;
+  }
+  
+  .card h3 {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    padding: 0 0.5rem;
+  }
+  
+  .card p {
+    font-size: 0.8rem;
+    margin: 0.2rem 0;
+    padding: 0 0.5rem;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* Para móviles muy pequeños */
+@media (max-width: 360px) {
+  header {
+    padding: 0.8rem;
+  }
+  
+  .logo {
+    height: 45px;
+  }
+  
+  .title-section h1 {
+    font-size: 1.2rem;
+  }
+  
+  #catalogo {
+    grid-template-columns: 1fr;
+    padding: 0.8rem;
+    gap: 0.8rem;
+  }
+  
+  .card {
+    max-width: 100%;
+  }
+}
+
+/* Para orientación horizontal en móviles */
+@media (max-height: 500px) and (orientation: landscape) {
+  header {
+    padding: 0.5rem 1rem;
+  }
+  
+  .header-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .title-section h1 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  
+  .title-section p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  
+  .contact-section p {
+    font-size: 0.6rem;
+    margin: 0.1rem 0;
+  }
+  
+  #catalogo {
+    padding: 1rem;
+    gap: 1rem;
   }
 }
 
@@ -86,6 +249,24 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
+}
+
+/* Responsive grid para tablets */
+@media (max-width: 768px) {
+  #catalogo {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+/* Responsive grid para móviles */
+@media (max-width: 480px) {
+  #catalogo {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
 }
 
 .card {
