@@ -16,7 +16,7 @@ async function cargarCatalogo() {
       }
 
       div.innerHTML = `
-        ${p.stock === 0 ? '<div class="banner-agotado"><img src="img/agotado-banner-diagonal-2.jpg" alt="Agotado"></div>' : ''}
+        ${p.stock === 0 ? '<div class="banner-agotado">AGOTADO</div>' : ''}
         <img src="${p.imagen}" alt="${p.nombre}">
         <h3>${p.nombre}</h3>
         <p><strong>Marca:</strong> ${p.marca}</p>
