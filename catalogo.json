@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Dior Sauvage",
+    "marca": "Dior",
+    "precio": "3,800",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://beautyface.hn/cdn/shop/products/image_69f44920-2738-4a10-b21f-3263036603d1.jpg?v=1605229699&width=1920"
+  },
+  {
+    "id": 2,
+    "nombre": "Afnan Supremacy Silver EDP",
+    "marca": "Afnan",
+    "precio": "1,645",
+    "stock": 2,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/afnan-supremacy-silver-edp-m-1-prive-perfumes_54dfd3c4.webp?v=1759485227&width=800"
+  },
+  {
+    "id": 3,
+    "nombre": "Giorgio Armani Acqua di Giò EDP",
+    "marca": "Giorgio Armani",
+    "precio": "3,999",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/giorgio-armani-acqua-di-gio-edp-m-1-prive-perfumes_05d312c0.webp?v=1759476169&width=800"
+  },
+  {
+    "id": 4,
+    "nombre": "Valentino Born in Roma Uomo Intense EDP",
+    "marca": "Valentino",
+    "precio": "4,299",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-valentino-born-in-roma-uomo-intense-edp-m-100-ml-1-prive-perfumes.webp?v=1754462287&width=800"
+  },
+  {
+    "id": 5,
+    "nombre": "Afnan 9PM EDP",
+    "marca": "Afnan",
+    "precio": "1,400",
+    "stock": 4,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-afnan-9pm-edp-m-100-ml-1-prive-perfumes.webp?v=1743662539&width=800"
+  },
+  {
+    "id": 6,
+    "nombre": "Afnan 9AM EDP",
+    "marca": "Afnan",
+    "precio": "1,500",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-afnan-9am-edp-w-100-ml-1-prive-perfumes.webp?v=1738137966&width=1200"
+  },
+  {
+    "id": 7,
+    "nombre": "Nautica Classic EDT",
+    "marca": "Nautica",
+    "precio": "950",
+    "stock": 2,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-nautica-classic-edt-m-100-ml-1-prive-perfumes.webp?v=1743661886&width=800"
+  },
+  {
+    "id": 8,
+    "nombre": "Lattafa Asad EDP",
+    "marca": "Lattafa",
+    "precio": "1,500",
+    "stock": 3,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-lattafa-asad-edp-m-100-ml-1-prive-perfumes.webp?v=1743662566&width=800"
+  },
+  {
+    "id": 9,
+    "nombre": "Emper Arabia Halla EDP",
+    "marca": "Emper",
+    "precio": "1,400",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://m.media-amazon.com/images/I/61Z6g35KR6L._SX679_.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Versace Eros Flame",
+    "marca": "Versace",
+    "precio": "2,200",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-versace-eros-flame-edp-m-100-ml-1-prive-perfumes.webp?v=1738045926&width=800"
+  },
+  {
+    "id": 11,
+    "nombre": "Armaf Odyssey Mega EDP",
+    "marca": "Armaf",
+    "precio": "1,300",
+    "stock": 1,
+    "ml": 100,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/armaf-odyssey-mega-edp-m-1-prive-perfumes_d624b082.webp?v=1759484008&width=800"
+  },
+  {
+    "id": 12,
+    "nombre": "Armaf Club de Nuit Précieux",
+    "marca": "Armaf",
+    "precio": "2,100",
+    "stock": 1,
+    "ml": 55,
+    "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-armaf-club-de-nuit-precieux-1-extrait-de-parfum-m-55-ml-1-prive-perfumes.webp?v=1743663329&width=800"
+  }
+]
