@@ -9,8 +9,14 @@ async function cargarCatalogo() {
     productos.forEach(p => {
       const div = document.createElement('div');
       div.classList.add('card');
+      
+      // Agregar clase especial si está agotado
+      if (p.stock === 0) {
+        div.classList.add('agotado');
+      }
 
       div.innerHTML = `
+        ${p.stock === 0 ? '<div class="banner-agotado"><img src="img/agotado-banner-diagonal-2.jpg" alt="Agotado"></div>' : ''}
         <img src="${p.imagen}" alt="${p.nombre}">
         <h3>${p.nombre}</h3>
         <p><strong>Marca:</strong> ${p.marca}</p>

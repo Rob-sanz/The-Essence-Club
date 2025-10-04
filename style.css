@@ -155,6 +155,11 @@ header {
     font-size: 0.85rem;
     margin: 0.25rem 0;
   }
+  
+  .banner-agotado {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 /* Responsive para tarjetas en móviles */
@@ -184,6 +189,11 @@ header {
   
   .card:hover {
     transform: scale(1.02);
+  }
+  
+  .banner-agotado {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -280,10 +290,38 @@ header {
   overflow: hidden;
   text-align: center;
   transition: transform 0.2s ease-in-out;
+  position: relative;
 }
 
 .card:hover {
   transform: scale(1.03);
+}
+
+/* Banner de agotado */
+.banner-agotado {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.banner-agotado img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Estilo para tarjetas agotadas */
+.card.agotado {
+  opacity: 0.8;
+}
+
+.card.agotado img:not(.banner-agotado img) {
+  filter: grayscale(50%);
 }
 
 .card img {
