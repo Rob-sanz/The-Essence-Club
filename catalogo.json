@@ -4,7 +4,7 @@
     "nombre": "Dior Sauvage",
     "marca": "Dior",
     "precio": "3,800",
-    "stock": 1,
+    "stock": 0,
     "ml": 100,
     "imagen": "https://beautyface.hn/cdn/shop/products/image_69f44920-2738-4a10-b21f-3263036603d1.jpg?v=1605229699&width=1920"
   },
@@ -22,7 +22,7 @@
     "nombre": "Giorgio Armani Acqua di Giò EDP",
     "marca": "Giorgio Armani",
     "precio": "3,999",
-    "stock": 1,
+    "stock": 0,
     "ml": 100,
     "imagen": "https://priveperfumes.com/cdn/shop/files/giorgio-armani-acqua-di-gio-edp-m-1-prive-perfumes_05d312c0.webp?v=1759476169&width=800"
   },
@@ -85,7 +85,7 @@
     "nombre": "Versace Eros Flame",
     "marca": "Versace",
     "precio": "2,200",
-    "stock": 0,
+    "stock": 1,
     "ml": 100,
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-versace-eros-flame-edp-m-100-ml-1-prive-perfumes.webp?v=1738045926&width=800"
   },
