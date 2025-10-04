@@ -142,6 +142,8 @@ header {
   
   .card img {
     height: 180px;
+    object-fit: contain;
+    background-color: #f8f5f0;
   }
   
   .card h3 {
@@ -164,6 +166,8 @@ header {
   
   .card img {
     height: 150px;
+    object-fit: contain;
+    background-color: #f8f5f0;
   }
   
   .card h3 {
@@ -285,7 +289,9 @@ header {
 .card img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background-color: #f8f5f0;
 }
 
 .card h3 {
