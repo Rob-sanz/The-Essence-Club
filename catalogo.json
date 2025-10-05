@@ -6,6 +6,7 @@
     "precio": "3,800",
     "stock": 0,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://beautyface.hn/cdn/shop/products/image_69f44920-2738-4a10-b21f-3263036603d1.jpg?v=1605229699&width=1920"
   },
   {
@@ -15,6 +16,7 @@
     "precio": "1,645",
     "stock": 2,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/afnan-supremacy-silver-edp-m-1-prive-perfumes_54dfd3c4.webp?v=1759485227&width=800"
   },
   {
@@ -24,6 +26,7 @@
     "precio": "3,999",
     "stock": 0,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/giorgio-armani-acqua-di-gio-edp-m-1-prive-perfumes_05d312c0.webp?v=1759476169&width=800"
   },
   {
@@ -33,6 +36,7 @@
     "precio": "4,299",
     "stock": 1,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-valentino-born-in-roma-uomo-intense-edp-m-100-ml-1-prive-perfumes.webp?v=1754462287&width=800"
   },
   {
@@ -42,6 +46,7 @@
     "precio": "1,400",
     "stock": 4,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-afnan-9pm-edp-m-100-ml-1-prive-perfumes.webp?v=1743662539&width=800"
   },
   {
@@ -51,6 +56,7 @@
     "precio": "1,500",
     "stock": 1,
     "ml": 100,
+    "sexo": "mujer",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-afnan-9am-edp-w-100-ml-1-prive-perfumes.webp?v=1738137966&width=1200"
   },
   {
@@ -60,6 +66,7 @@
     "precio": "950",
     "stock": 2,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-nautica-classic-edt-m-100-ml-1-prive-perfumes.webp?v=1743661886&width=800"
   },
   {
@@ -69,6 +76,7 @@
     "precio": "1,500",
     "stock": 3,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-lattafa-asad-edp-m-100-ml-1-prive-perfumes.webp?v=1743662566&width=800"
   },
   {
@@ -78,6 +86,7 @@
     "precio": "1,400",
     "stock": 1,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://m.media-amazon.com/images/I/61Z6g35KR6L._SX679_.jpg"
   },
   {
@@ -87,6 +96,7 @@
     "precio": "2,200",
     "stock": 1,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-versace-eros-flame-edp-m-100-ml-1-prive-perfumes.webp?v=1738045926&width=800"
   },
   {
@@ -96,6 +106,7 @@
     "precio": "1,300",
     "stock": 0,
     "ml": 100,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/armaf-odyssey-mega-edp-m-1-prive-perfumes_d624b082.webp?v=1759484008&width=800"
   },
   {
@@ -105,6 +116,7 @@
     "precio": "2,100",
     "stock": 1,
     "ml": 55,
+    "sexo": "hombre",
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-armaf-club-de-nuit-precieux-1-extrait-de-parfum-m-55-ml-1-prive-perfumes.webp?v=1743663329&width=800"
   }
 ]
