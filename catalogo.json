@@ -85,7 +85,7 @@
     "nombre": "Versace Eros Flame",
     "marca": "Versace",
     "precio": "2,200",
-    "stock": 0,
+    "stock": 1,
     "ml": 100,
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-versace-eros-flame-edp-m-100-ml-1-prive-perfumes.webp?v=1738045926&width=800"
   },
@@ -107,7 +107,4 @@
     "ml": 55,
     "imagen": "https://priveperfumes.com/cdn/shop/files/perfume-armaf-club-de-nuit-precieux-1-extrait-de-parfum-m-55-ml-1-prive-perfumes.webp?v=1743663329&width=800"
   }
-
 ]
-
-
