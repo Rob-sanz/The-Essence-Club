@@ -22,9 +22,10 @@ async function cargarCatalogo() {
         <p><strong>Marca:</strong> ${p.marca}</p>
         <p><strong>Tamaño:</strong> ${p.ml}ml</p>
         <p><strong>Precio:</strong> L. ${p.precio}</p>
-        <!-- <p class="stock ${p.stock <= 3 ? 'low' : ''}">Stock: ${p.stock}</p> -->
+        <p class="stock ${p.stock <= 3 ? 'low' : ''}">
+          Stock: ${p.stock}
+        </p>
       `;
-      //El stock de arroba esta dehabilitado
 
       catalogo.appendChild(div);
     });
