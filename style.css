@@ -345,6 +345,42 @@ header {
   color: red;
 }
 
+/* Estilos para precios con descuento */
+.precio-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.precio-antes {
+  font-size: 0.9rem;
+  color: #e74c3c;
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+.precio-actual {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #333;
+}
+
+/* Responsive para precios */
+@media (max-width: 480px) {
+  .precio-container {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .precio-antes {
+    font-size: 0.8rem;
+  }
+  
+  .precio-actual {
+    font-size: 1rem;
+  }
+}
+
 .contact-section a {
   color: #6A1B9A;  /* morado elegante */
   text-decoration: none;

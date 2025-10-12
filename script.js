@@ -15,13 +15,31 @@ async function cargarCatalogo() {
         div.classList.add('agotado');
       }
 
+      // Construir HTML de precios
+      let precioHTML = '';
+      if (p.precio_antes && p.precio_antes !== 0 && p.precio_antes !== "0") {
+        // Producto con descuento - Debug
+        console.log(`Producto con descuento: ${p.nombre}, antes: ${p.precio_antes}, ahora: ${p.precio}`);
+        precioHTML = `
+          <p><strong>Precio:</strong> 
+            <div class="precio-container">
+              <span class="precio-actual">L. ${p.precio}</span>
+              <span class="precio-antes">L. ${p.precio_antes}</span>
+            </div>
+          </p>
+        `;
+      } else {
+        // Precio normal
+        precioHTML = `<p><strong>Precio:</strong> L. ${p.precio}</p>`;
+      }
+
       div.innerHTML = `
         ${p.stock === 0 ? '<div class="banner-agotado">AGOTADO</div>' : ''}
         <img src="${p.imagen}" alt="${p.nombre}">
         <h3>${p.nombre}</h3>
         <p><strong>Marca:</strong> ${p.marca}</p>
         <p><strong>Tamaño:</strong> ${p.ml}ml</p>
-        <p><strong>Precio:</strong> L. ${p.precio}</p>
+        ${precioHTML}
         <!-- <p class="stock ${p.stock <= 3 ? 'low' : ''}">
           Stock: ${p.stock}
         </p> -->
